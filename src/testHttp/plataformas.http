@@ -1,0 +1,11 @@
+@url = https://8080-marcoweb-gamessw22024-1dfw43fanxx.ws-us116.gitpod.io
+
+GET {{url}}/plataformas
+
+###
+POST {{url}}/plataformas
+Content-Type: application/json
+
+{
+    "nome" : "XBox"
+}
